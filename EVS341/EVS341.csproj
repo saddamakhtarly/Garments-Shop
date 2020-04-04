@@ -64,11 +64,6 @@
     <Compile Include="GarmentsShop\SubCategory.cs" />
     <Compile Include="IListable.cs" />
     <Compile Include="LocationsHandler.cs" />
-    <Compile Include="Migrations\202004041228496_First.cs" />
-    <Compile Include="Migrations\202004041228496_First.Designer.cs">
-      <DependentUpon>202004041228496_First.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Province.cs" />
     <Compile Include="UsersMgt\Role.cs" />
@@ -77,11 +72,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Migrations\202004041228496_First.resx">
-      <DependentUpon>202004041228496_First.cs</DependentUpon>
-    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
